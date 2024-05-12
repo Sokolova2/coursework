@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="coursework.ChangesEmployees">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCAyABgQBADJAAADAAAAQAAAAAAQBCAAAAA=</HashCode>
+      <FileName>ChangesEmployees.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.ChangesSalary">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAACAwCBAQBADBAAACAAIAACAAAAAQBCgAAAA=</HashCode>
+      <FileName>ChangesSalary.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.ClientRegistration">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <AssociationLine Name="DataBase" Type="coursework.DataBase" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.844" Y="5.838" />
+        <Point X="7.844" Y="6.375" />
+        <Point X="7.115" Y="6.375" Type="JumpStart" />
+        <Point X="6.948" Y="6.375" Type="JumpEnd" />
+        <Point X="6.75" Y="6.375" />
+        <Point X="6.75" Y="6.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.891" Y="0.527" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAwABQBBACBAAAGAAAAAAAAAAAQBCAAAAA=</HashCode>
+      <FileName>ClientRegistration.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.CustomerLogin">
+    <Position X="8.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAwABAABACBAAACAAAAAAAAAACQBCAAAAA=</HashCode>
+      <FileName>CustomerLogin.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.DataBase">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.DeleteDishes">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAACAwABQABACBAAACAAAAAAAAAAAQBCAAAAA=</HashCode>
+      <FileName>DeleteDishes.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.Employee">
+    <Position X="10" Y="7" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="coursework.Employee.Item" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Employee.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAASAwAAAABAiBAAACCAgAAAAAAIAQBCAAAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.FeedbackAndSuggestion">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="coursework.FeedbackAndSuggestion.Item" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FeedbackAndSuggestion.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <AssociationLine Name="DataBase" Type="coursework.DataBase" ManuallyRouted="true">
+      <Path>
+        <Point X="12.75" Y="5.588" />
+        <Point X="12.75" Y="6" />
+        <Point X="9.937" Y="6" />
+        <Point X="9.937" Y="6.208" />
+        <Point X="9.851" Y="6.208" Type="JumpStart" />
+        <Point X="9.685" Y="6.208" Type="JumpEnd" />
+        <Point X="8.034" Y="6.208" />
+        <Point X="8.034" Y="7.016" />
+        <Point X="7.708" Y="7.016" Type="JumpStart" />
+        <Point X="7.467" Y="7.016" Type="JumpEnd" />
+        <Point X="7.25" Y="7.016" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAwAAAQBAiDAAACAAgAAAAAAKAQBCAAAAA=</HashCode>
+      <FileName>FeedbackAndSuggestion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.HomePage">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAoACAgAAAAAAiAQAAmAQAIAAAAAEAQBClAAAA=</HashCode>
+      <FileName>HomePage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Item" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.InsertDishes">
+    <Position X="12.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAWAwABAABACBAAACAAAAAAAAAAAQBCAAAAA=</HashCode>
+      <FileName>InsertDishes.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.InsertFeedback">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAwABAQBACBAAACAAAAAAAAACAQBCAAAAA=</HashCode>
+      <FileName>InsertFeedback.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.InsertOrders">
+    <Position X="2.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAgCAwABAABQiBAAAGAAoAABAAAAAQBSAAIAA=</HashCode>
+      <FileName>InsertOrders.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+      <Property Name="Item" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.LoyaltyCard">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <AssociationLine Name="DataBase" Type="coursework.DataBase" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.25" Y="3.062" />
+        <Point X="20.45" Y="3.062" />
+        <Point X="20.45" Y="9.769" />
+        <Point X="18.7" Y="9.769" />
+        <Point X="18.7" Y="6.3" />
+        <Point X="16.2" Y="6.3" />
+        <Point X="16.2" Y="7.259" />
+        <Point X="14.083" Y="7.259" Type="JumpStart" />
+        <Point X="13.917" Y="7.259" Type="JumpEnd" />
+        <Point X="13.888" Y="7.259" />
+        <Point X="13.888" Y="6.8" />
+        <Point X="9.851" Y="6.8" Type="JumpStart" />
+        <Point X="9.685" Y="6.8" Type="JumpEnd" />
+        <Point X="8.117" Y="6.8" Type="JumpStart" />
+        <Point X="7.951" Y="6.8" Type="JumpEnd" />
+        <Point X="7.55" Y="6.8" />
+        <Point X="7.55" Y="8.99" />
+        <Point X="6.833" Y="8.99" Type="JumpStart" />
+        <Point X="6.667" Y="8.99" Type="JumpEnd" />
+        <Point X="6.219" Y="8.99" />
+        <Point X="6.219" Y="8.69" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAgAAAABACEwABIABICBAEACAAAIAAACAAARBCACAAA=</HashCode>
+      <FileName>LoyalttyCard.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.Menu">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAQAAAWAyAAEABAqBAAACAAoAAAABAIgQFAAAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.Orders">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="coursework.Orders.Item" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Orders.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <AssociationLine Name="DataBase" Type="coursework.DataBase" ManuallyRouted="true">
+      <Path>
+        <Point X="10" Y="3.14" />
+        <Point X="9.768" Y="3.14" />
+        <Point X="9.768" Y="7.508" />
+        <Point X="8.083" Y="7.508" Type="JumpStart" />
+        <Point X="7.917" Y="7.508" Type="JumpEnd" />
+        <Point X="7.708" Y="7.508" Type="JumpStart" />
+        <Point X="7.467" Y="7.508" Type="JumpEnd" />
+        <Point X="7.25" Y="7.508" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAiAAAABACAwAAAABAyBAAACAAgAAAAAAIAQBCAAAAA=</HashCode>
+      <FileName>Orders.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.Program">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Reports">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="coursework.Reports.Item" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Reports.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BACAAAABACAwAAACBCiBAEACAAgAAAAAAIAQBGAABAA=</HashCode>
+      <FileName>Reports.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.Salary">
+    <Position X="0.75" Y="9.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="coursework.Salary.Item" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Salary.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <AssociationLine Name="DataBase" Type="coursework.DataBase" ManuallyRouted="true">
+      <Path>
+        <Point X="1.5" Y="9.25" />
+        <Point X="1.5" Y="8.973" />
+        <Point X="3.089" Y="8.973" Type="JumpStart" />
+        <Point X="3.255" Y="8.973" Type="JumpEnd" />
+        <Point X="3.823" Y="8.973" Type="JumpStart" />
+        <Point X="3.99" Y="8.973" Type="JumpEnd" />
+        <Point X="4.082" Y="8.973" />
+        <Point X="4.082" Y="7.08" />
+        <Point X="4.708" Y="7.08" Type="JumpStart" />
+        <Point X="4.874" Y="7.08" Type="JumpEnd" />
+        <Point X="5.75" Y="7.08" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAAEAEAAICAwAAAABAiBAAACAAgAAAAAAIAQBCAAAAA=</HashCode>
+      <FileName>Salary.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.Summary">
+    <Position X="4.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAwAAACBCCBAAACAAgAAAAAAIAQBGAAAAQ=</HashCode>
+      <FileName>Summary.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="coursework.UpdateMenu">
+    <Position X="6.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACAwABAABACBBAECAAAAAAAAAAAQBCAAAAA=</HashCode>
+      <FileName>UpdateMenu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="coursework.Item">
+    <Position X="15" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
